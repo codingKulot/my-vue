@@ -29,7 +29,7 @@
         />
       </div>
 
-      <b-button class="btn-sign-in">Sign In</b-button>
+      <b-button class="btn-sign-in" @click="onSignIn">Sign In</b-button>
       <b-button class="btn-sign-in-foodics">Sign in with Foodics F5</b-button>
       <a href="" class="link-new-accnt">Create New Account</a>
     </section>
